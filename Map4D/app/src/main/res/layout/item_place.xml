@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="place"
+            type="com.truongthong.map4d.models.PlaceResult" />
+
+        <variable
+            name="clickListener"
+            type="com.truongthong.map4d.adapter.ItemClickListener" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{() -> clickListener.onClick(place)}"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="@{place.name}"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </com.google.android.material.card.MaterialCardView>
+</layout>

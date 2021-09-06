@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/background_button_destination.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/background_dialog_searchView.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/background_dialog_search_view.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/background_dialog_view.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/background_search_view.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/custom_button_search.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/custom_text_view.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/custome_button.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/ic_close.xml" value="0.275" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/ic_location.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/drawable/outline_close_24.xml" value="0.21388888888888888" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_dialog_select_province.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_district.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_list_province.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_main.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_place.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_province.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_select_place.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/activity_select_province.xml" value="0.3067484662576687" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/dialog_select_province.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/fragment_dialog_place.xml" value="0.15085771947527749" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/fragment_search.xml" value="0.18" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/fragment_select.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/item_country.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/item_place.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/item_select.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/loading_state.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/recycler_list_row.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/select_place.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

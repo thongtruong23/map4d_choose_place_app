@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Map4D</string>
+    <string name="ed_province">Tỉnh/Thành phố</string>
+    <string name="ed_district">Quận/Huyện</string>
+    <string name="ed_sub_district">Phường/Xã</string>
+    <string name="apply">Áp Dụng</string>
+    <string name="choose_province">Chọn Tỉnh/Thành phố</string>
+    <string name="choose_district">Chọn Quận/Huyện</string>
+    <string name="choose_subdistrict">Chọn Phường/Xã</string>
+    <string name="choose_place_search">Chọn khu vực tìm kiếm</string>
+</resources>

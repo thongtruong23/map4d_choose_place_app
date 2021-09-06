@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.truongthong.map4d.viewmodel.MainViewModel" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_panel"
+        >
+        <vn.map4d.map.core.MFMapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/background_search_view"
+                android:focusable="false"
+                android:theme="@style/ThemeOverlay.search"
+                app:iconifiedByDefault="false"
+                app:queryHint="Tìm kiếm trên map4D" />
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/edtToChoosePlace"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_search_view"
+                android:drawableStart="@drawable/ic_location"
+                android:drawableEnd="@drawable/ic_arrow_drop_down"
+                android:drawablePadding="10dp"
+                android:focusable="false"
+                android:text="@{viewModel.txtChoosePlace}"
+                android:onClick="@{() -> viewModel.onClickToSearch()}"
+                android:hint="@string/choose_place_search"
+                android:importantForAutofill="no"
+                android:inputType="text" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
