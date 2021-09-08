@@ -80,8 +80,7 @@ class FragmentDialogChoosePlace : DialogFragment() {
                 }
                 else -> getString(R.string.choose_province)
             }
-            // println("title: $title")
-            dataBinding.chooseAreaTitle.text = title
+            dataBinding.dialogTitle.text = title
         })
     }
 
@@ -103,8 +102,7 @@ class FragmentDialogChoosePlace : DialogFragment() {
             }
         })
 
-        dataBinding.rvSearch.adapter = adapter
-
+        dataBinding.dialogRecyclerView.adapter = adapter
         dialogPlaceViewModel.placeResult.observe(viewLifecycleOwner, {
             if (it != null) {
                 adapter.submitList(it)

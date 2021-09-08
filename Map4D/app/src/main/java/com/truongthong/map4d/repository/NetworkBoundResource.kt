@@ -1,6 +1,9 @@
 package com.truongthong.map4d.repository
 
+import com.truongthong.map4d.models.Place
+import com.truongthong.map4d.models.PlaceResult
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.addTo
@@ -10,7 +13,7 @@ import io.reactivex.rxjava3.subjects.ReplaySubject
 abstract class NetworkBoundResource<ResultType, RequestType> {
 
     private val compositeDisposable = CompositeDisposable()
-    abstract fun callApi(): Single<RequestType>
+    abstract fun callApi(): Observable<Place<MutableList<PlaceResult>>>
 
     @Suppress("unchecked_cast")
     fun handleSubject(): ReplaySubject<Resource<ResultType>> {

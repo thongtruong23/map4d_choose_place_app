@@ -7,5 +7,10 @@
     <string name="choose_province">Chọn Tỉnh/Thành phố</string>
     <string name="choose_district">Chọn Quận/Huyện</string>
     <string name="choose_subdistrict">Chọn Phường/Xã</string>
-    <string name="choose_place_search">Chọn khu vực tìm kiếm</string>
+    <string name="choose_place_search">Chọn khu vực cần tìm</string>
+    <string name="close_dialog">close dialog</string>
+    <string name="close_choose_place_screen">close choose place screen</string>
+    <string name="province">Tỉnh/Thành phố</string>
+    <string name="district">Quận/Huyện</string>
+    <string name="subDistrict">Phường/Xã</string>
 </resources>

@@ -15,10 +15,6 @@ class PlaceActivity : AppCompatActivity(), PlaceUpdate {
     private lateinit var binding: ActivityPlaceBinding
     private lateinit var placeViewModel: PlaceViewModel
 
-//    private val viewModel by lazy {
-//        ViewModelProvider(this).get(PlaceViewModel::class.java)
-//    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -32,7 +28,7 @@ class PlaceActivity : AppCompatActivity(), PlaceUpdate {
         placeViewModel.backClick.observe(this, {
             if (it) {
                 onBackPressed()
-                placeViewModel.onBackCliked()
+                placeViewModel.onBtnChoosePlaceCliked()
             }
         })
 

@@ -91,11 +91,11 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-    fun onClickToSearch() {
+    fun onClickToChoosePlace() {
         btnClick.onNext(true)
     }
 
-    fun onClickToSearchSuccess() {
+    fun onClickToChooserPlaceSuccess() {
         btnClick.onNext(false)
     }
 

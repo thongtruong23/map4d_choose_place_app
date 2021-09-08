@@ -14,7 +14,7 @@
     </style>
 
     <style name="ThemeDialogPlace" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">#c4141414</item>
+        <item name="android:windowBackground">#C4000000</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">false</item>
     </style>

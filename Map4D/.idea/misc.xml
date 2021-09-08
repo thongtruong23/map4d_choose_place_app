@@ -37,6 +37,11 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/loading_state.xml" value="0.17798913043478262" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/recycler_list_row.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Map4D/app/src/main/res/layout/select_place.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/map4d_choose_place_app/Map4D/app/src/main/res/drawable/background_button.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/map4d_choose_place_app/Map4D/app/src/main/res/layout/activity_main.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/map4d_choose_place_app/Map4D/app/src/main/res/layout/activity_place.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/map4d_choose_place_app/Map4D/app/src/main/res/layout/fragment_dialog_place.xml" value="0.16044399596367306" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/map4d_choose_place_app/Map4D/app/src/main/res/layout/item_place.xml" value="0.14356884057971014" />
       </map>
     </option>
   </component>

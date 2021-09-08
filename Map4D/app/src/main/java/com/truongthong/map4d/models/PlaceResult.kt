@@ -6,6 +6,9 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class PlaceResult(
 
+    @SerializedName("code")
+    val code : String? = null,
+
     @SerializedName("id")
     val id : String? = null,
 
@@ -23,9 +26,6 @@ data class PlaceResult(
 
     @SerializedName("parentId")
     val parentId : Int? = null,
-
-    @SerializedName("code")
-    val code : String? = null,
 
     @SerializedName("viewbox")
     val viewbox : String? = null

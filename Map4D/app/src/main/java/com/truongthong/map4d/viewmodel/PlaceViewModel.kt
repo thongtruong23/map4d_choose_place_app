@@ -172,11 +172,11 @@ class PlaceViewModel : ViewModel() {
         stateEdtSubDistrictRX.onNext(false)
     }
 
-    fun onBackClick() {
+    fun closeChoosePlace() {
         backClickRX.onNext(true)
     }
 
-    fun onBackCliked() {
+    fun onBtnChoosePlaceCliked() {
         backClickRX.onNext(false)
     }
 

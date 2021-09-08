@@ -24,7 +24,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="15dp"
-                android:onClick="@{() -> viewModel.onBackClick()}"
+                android:contentDescription="@string/close_choose_place_screen"
+                android:onClick="@{() -> viewModel.closeChoosePlace()}"
                 android:src="@drawable/ic_close" />
 
             <TextView
@@ -47,7 +48,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"
             android:focusable="false"
-            android:hint="Tỉnh/Thành phố"
+            android:hint="@string/province"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
             app:boxCornerRadiusTopEnd="10dp"
@@ -73,7 +74,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:focusable="false"
-            android:hint="Quận/Huyện"
+            android:hint="@string/district"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
             app:boxCornerRadiusTopEnd="10dp"
@@ -98,7 +99,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:focusable="false"
-            android:hint="Phường/Xã"
+            android:hint="@string/subDistrict"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
             app:boxCornerRadiusTopEnd="10dp"
