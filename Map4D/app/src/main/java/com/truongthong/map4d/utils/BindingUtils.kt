@@ -7,10 +7,13 @@ import com.truongthong.map4d.models.PlaceResult
 
 @BindingAdapter("textPlace")
 fun textPlace(textView: TextView, placeResult: PlaceResult?) {
-    if (placeResult == null) {
-        textView.text = ""
-    } else {
-        textView.text = placeResult.name
+    when (placeResult) {
+        null -> {
+            textView.text = ""
+        }
+        else -> {
+            textView.text = placeResult.name
+        }
     }
 }
 

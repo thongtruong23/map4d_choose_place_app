@@ -4,7 +4,6 @@ import com.truongthong.map4d.api.PlaceService
 import com.truongthong.map4d.models.Place
 import com.truongthong.map4d.models.PlaceResult
 import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.subjects.ReplaySubject
 

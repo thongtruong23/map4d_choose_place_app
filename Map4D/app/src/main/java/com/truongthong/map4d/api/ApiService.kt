@@ -1,6 +1,5 @@
 package com.truongthong.map4d.api
 
-
 import com.truongthong.map4d.models.Place
 import com.truongthong.map4d.models.PlaceResult
 import com.truongthong.map4d.utils.Constant
